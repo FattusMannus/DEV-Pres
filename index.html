@@ -91,7 +91,7 @@
 					<dt>Real life examples as we go through</dt>
 					<dd>Applying the things we have learnt and looking at some areas this knowledge could be applied</dd>
 				</dl>
-			</div>-->`
+			</div>-->
 		
 			<div id="/section-1/page-3" class="ft-page" data-id="page-3">
 				<h1>Basic Programming Concepts</h1>
@@ -120,8 +120,8 @@
 				<h1>Variables</h1>
 				<h3>What are Variables?</h3>
 				<img class="step" src="assets/img/bucket.jpg" style="float:left;margin-right:40px"/>
-				<p>Variables are just <strong>buckets!</strong><br/>They are a place to store something that you will use later and you can update the contents at any time.<br/>You can store lots of different things in a variable - but basically anything you need to know later on in your code.</p>
-				<br/><p style="clear:both">Examples of Variables:</p>
+				<p>Variables are just <strong>buckets!</strong><br/><br/>They are a place to store something that you will use later and you can update the contents at any time.<br/><br/>You can store lots of different things in a variable - but basically anything you need to know later on in your code.</p>
+				<p style="clear:both">Examples of Variables:</p>
 				<ul>
 					<li>Results from a database</li>
 					<li>A username</li>
@@ -131,22 +131,21 @@
 			<div id="/section-2/page-4" class="ft-page" data-id="page-4">
 				<h1>Variable Code Example</h1>
 				<p>Here we are creating a new variable called <strong>reminder</strong> and storing the sentence <strong>Variables are buckets</strong> inside it.</p>
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token keyword">var</span> reminder <span class="token operator">=</span> <span class="token string">"Variables are Buckets"</span><span class="token punctuation">;</span></code></pre>
-				<p>We can recall the contents of this variable or modify the contents at any time:</p>
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">// create the variable and set the contents
+				
+				<div style="font-size:27px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">// create the variable and set the contents
 </span><span class="token keyword">var</span> reminder <span class="token operator">=</span> <span class="token string">"Variables are Buckets"</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>reminder<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-// outputs "Variables are Buckets"
-</span><span class="token comment" spellcheck="true">
-// modify the contents of the variable
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>reminder<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">// outputs "Variables are Buckets"</span></code></pre></div>
+				<p>We can recall the contents of this variable or modify the contents at any time:</p>
+				<div style="font-size:27px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">// modify the contents of the variable
 </span>reminder <span class="token operator">=</span> <span class="token string">"Don't eat yellow snow"</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>reminder<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-// outputs "Don't eat yellow snow"</span></code></pre>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>reminder<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">// outputs "Don't eat yellow snow"</span></code></pre></div>
 			</div>
 			<div id="/section-2/page-5" class="ft-page" data-id="page-5">
 				<h1>What other things can I put in a variable?</h1>
 				<p>	We can store all kinds of things inside a variable - in programming terms, these are called <strong>types</strong>.
-				Here are some example of things we can store inside a variable and their equivalant programming term:
+				
 				<dl>
 					<dt>string:</dt>
 					<dd>a word or sentence - example: "Hello, I am a string"</dd>
@@ -164,22 +163,17 @@ console<span class="token punctuation">.</span><span class="token function">log<
 			<div id="/section-2/page-6" class="ft-page" data-id="page-6">
 				<h1>How do you use variables?</h1>
 				<p>You can use variables in many different ways and this often depends on what type of variable you are using.</p>
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create the variable "reminder" and set contents
-</span><span class="token keyword">var</span> reminder <span class="token operator">=</span> <span class="token string">"Variables are buckets"</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span><span class="token string">"Don't forget - "</span> <span class="token operator">+</span> reminder<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">
-//update contents of "reminder"
-</span>reminder <span class="token operator">=</span> <span class="token string">"Don't eat yellow snow"</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span><span class="token string">"Don't forget - "</span> <span class="token operator">+</span> reminder<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+			<div style="font-size:27px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create the variable "reminder" and set contents
+</span><span class="token keyword">var</span> reminder <span class="token operator">=</span> <span class="token string">"Don't eat yellow snow"</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span><span class="token string">"Don't forget - "</span> <span class="token operator">+</span> reminder<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
 		
 			<p>Using an <strong>integer</strong> (whole number):</p>
-			<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create the variable "appleCount" and set the value
+			<div style="font-size:27px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create the variable "appleCount" and set the value
 </span><span class="token keyword">var</span> appleCount <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>appleCount<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">
-//if I eat an apple, I will have one less
+
+<span class="token comment" spellcheck="true">//if I eat an apple, I will have one less
 </span>appleCount <span class="token operator">=</span> appleCount <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>appleCount<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>	</div>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>appleCount<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>	</div>
 			<div id="/section-2/page-7" class="ft-page" data-id="page-7">
 				<h1>Variable Quiz</h1>
 						<dl>
@@ -203,12 +197,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
 		<div class="ft-section" data-id="section-3">
 			<div id="/section-3/page-1" class="ft-page" data-id="page-1">
 				<h1>Functions</h1>
-				<p>Functions are pieces of code that complete some logic and then tell you the outcome of that logic.<br/>We use function where we want to repeat the same piece of functionality more than once.</p>
+				<p>Functions are pieces of code that perform some logic and then tell you the outcome of that logic.<p>
 
-				<p class="ft-fragment">Functions are sets of instructions to perform a a task.<br/><br/>Example: <strong>Putting the bins out:</strong></p>
+				<p class="ft-fragment">Functions are sets of instructions to perform a task.<br/><strong>Example: Putting the bins out:</strong></p>
 				<ul>
 					<li class="ft-fragment step">Find Bins</li>
+					<li class="ft-fragment step">Find Gate</li>
 					<li class="ft-fragment step">Open Gate</li>
+					<li class="ft-fragment step">Find Kerb</li>
 					<li class="ft-fragment step">Move Bins to Kerb</li>
 				</ul>
 
@@ -220,27 +216,22 @@ console<span class="token punctuation">.</span><span class="token function">log<
 				<h1>Function Code Example</h1>
 				<p>In the following function, we add the number 4 to the number 8:</p>
 
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create or declare the function
+				<div style="font-size:22px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create or declare the function
 </span><span class="token keyword">function</span> <span class="token function">add4and8<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token number">4</span><span class="token operator">+</span><span class="token number">8</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-<span class="token comment" spellcheck="true">
-//call the function and put the value into the returnValue variable
-</span><span class="token keyword">var</span> returnValue <span class="token operator">=</span> <span class="token function">add4and8<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>returnValue<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-// outputs 12
-</span></code></pre>
+<span class="token comment" spellcheck="true">//call the function and put the value into the returnValue variable
+</span><span class="token keyword">var</span> returnValue <span class="token operator">=</span> <span class="token function">add4and8<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>returnValue<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// outputs 12</span></code></pre></div>
 <p>We can call this function anywhere we want to know the value of 4+8:</p>
 
-<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//call our function and put the value into the variables
+<div style="font-size:22px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//call our function and put the value into the variables
 </span><span class="token keyword">var</span> returnValue <span class="token operator">=</span> <span class="token function">add4and8<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>		
 <span class="token keyword">var</span> fourPlusEight <span class="token operator">=</span> <span class="token function">add4and8<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>returnValue<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-//outputs 12
-</span>console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>fourPlusEight<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-//outputs 12</span></code></pre>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>returnValue<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//outputs 12
+</span>console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>fourPlusEight<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//outputs 12</span></code></pre></div>
 
 
 
@@ -252,24 +243,21 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
 			<div id="/section-3/page-3" class="ft-page" data-id="page-3">
 				<h1>But this isnt very useful! - <strong>Exercise</strong></h1>
-				<p>In this example, we can now calculate the value of 4 and 8. But what if we want to to know the value of 2 other numbers?<br/>We don't want to have to create a function everytime we want to add 2 different numbers!<br/>
+				<p>In this example, we can now calculate the value of 4 and 8. But what if we want to to know the value of 2 other numbers?<br/>
 					<br/>
 				For this, we can use <strong>arguments</strong>. This allows us to send some data to our function and makes our code <strong>more reusable</strong></p>
-		<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create our function with 2 arguments
+		<div style="font-size:26px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create our function with 2 arguments
 </span><span class="token keyword">function</span> <span class="token function">addTwoNumbers<span class="token punctuation">(</span></span>numberOne<span class="token punctuation">,</span> numberTwo<span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token keyword">return</span> numberOne <span class="token operator">+</span> numberTwo<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 <span class="token comment" spellcheck="true">
 //call our function with our arguments
 </span><span class="token keyword">var</span> result <span class="token operator">=</span> <span class="token function">addTwoNumbers<span class="token punctuation">(</span></span><span class="token number">15</span><span class="token punctuation">,</span> <span class="token number">45</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>result<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-//outputs 60
-</span>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>result<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true"> //outputs 60</span>
+<br/>
 <span class="token comment" spellcheck="true">//call our function with different arguments
 </span><span class="token keyword">var</span> result <span class="token operator">=</span> <span class="token function">addTwoNumbers<span class="token punctuation">(</span></span><span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">677</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>result<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">
-//outputs 688
-</span></code></pre>		
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>result<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true"> //outputs 688</span></code></pre></div>	
 			</div>
 
 			
@@ -286,18 +274,18 @@ console<span class="token punctuation">.</span><span class="token function">log<
 				<h1>Real life example</h1>
 				<p>In the real world we use functions where we don't want to duplicate code and where we want to do the same task repeatedly.
 
-					<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create our function
+					<div style="font-size:24px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//create our function
 </span><span class="token keyword">function</span> <span class="token function">calculateVat<span class="token punctuation">(</span></span>amount<span class="token punctuation">)</span><span class="token punctuation">{</span>
     <span class="token keyword">return</span> amount <span class="token operator">*</span> <span class="token number">0.2</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 
 <span class="token keyword">var</span> totalSaleAmount <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
 <span class="token keyword">var</span> vatAmount <span class="token operator">=</span> <span class="token function">calculateVat<span class="token punctuation">(</span></span>totalSaleAmount<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>vatAmount<span class="token punctuation">)</span><span class="token punctuation">;</span>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>vatAmount<span class="token punctuation">)</span><span class="token punctuation">; </span> <span class="token comment" spellcheck="true">//outputs 0.2</span>
 
 <span class="token keyword">var</span> secondSaleAmount <span class="token operator">=</span> <span class="token number">41.76</span><span class="token punctuation">;</span>
 vatAmount <span class="token operator">=</span> <span class="token function">calculateVat<span class="token punctuation">(</span></span>secondSaleAmount<span class="token punctuation">)</span><span class="token punctuation">;</span>
-console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>vatAmount<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>vatAmount<span class="token punctuation">)</span><span class="token punctuation">; </span> <span class="token comment" spellcheck="true">//outputs 8.35</span></code></pre></div>
 
 <p>This makes life much easier if the VAT rate changes, as we only have to change the code in one place.
 
@@ -307,20 +295,24 @@ console<span class="token punctuation">.</span><span class="token function">log<
 			<div id="/section-3/page-6" class="ft-page" data-id="page-6">
 				<h1>Function Quiz</h1>
 						<dl>
-							<dt>TODO: ANOTHER FUNCTION QUESTION</dt>
-							<dd><span class="ft-fragment step">TODO: ANOTHER FUNCTION QUESTION</span> <span class="ft-fragment step"><strong>TODO: ANOTHER FUNCTION QUESTION</strong></span></dd>
-							<dt>TODO: ANOTHER FUNCTION QUESTION</dt>
-							<dd><span class="ft-fragment step">TODO: ANOTHER FUNCTION QUESTION</span> <span class="ft-fragment step"><strong>TODO: ANOTHER FUNCTION QUESTION</strong></dd>
-							<dt>TODO: ANOTHER FUNCTION QUESTION</dt>
-							<dd><span class="ft-fragment step">TODO: ANOTHER FUNCTION QUESTION</span> <span class="ft-fragment step"><strong>TODO: ANOTHER FUNCTION QUESTION</strong></span></dd>
+							<dt>What is the name of a piece of information that you pass to a function?</dt>
+							<dd><span class="ft-fragment step">An <strong>Argument</strong> or <strong>Parameter</strong></span></dd>
+							<dt>True or False?</dt>
+							<dd><span class="ft-fragment step">A function can take no arguments?</span> <span class="ft-fragment step"><strong>True</strong></dd>
+							<dt>Why do we break code down into functions?</dt>
+							<dd><span class="ft-fragment step"><strong>To increase reusability and maintainability</strong></span></dd>
 						</dl>
 			</div>
 
 
 			<div id="/section-3/page-7" class="ft-page" data-id="page-7">
 				<h1>Function Recap</h1>
-				<p>Functions are used for <strong>isolated</strong> pieces of code that you will <strong>reuse</strong>. This means that in the future, if you need to modify that set of code, you only need to change it one place.<br/> <br/>
-					It also means that you reduce duplication of code and therefore reduce the amount of bugs that could be in the code - if any bugs do exist in that function, you can fix it once for your whole application.<br/><br/>However, code can often be refactored to use the same function where different behaviour is required in different cases and this can introduce bugs.
+				<br/>
+				<p>Functions are used for pieces of code that you will <strong>reuse</strong>. <br/><br/>
+					If you need to modify that set of code, you only need to <strong>change it one place</strong>.<br/> <br/>
+					You reduce duplication of code and therefore <strong>reduce the amount</strong> of bugs that could be in that code<br/> <br/>
+					This is why functions should be broken down into small pieces<br/> <br/>
+
 
 				</p>
 			</div>
@@ -343,7 +335,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 			<div id="/section-6/page-2" class="ft-page" data-id="page-2">
 				<h1>If statement</h1>
 				<p>Example: If today is my birthday, then eat cake.<br/>If it's not my birthday, then cry</p>
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//define my birthday
+				<div style="font-size:26px"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//define my birthday
 </span><span class="token keyword">var</span> myBirthday <span class="token operator">=</span> <span class="token string">"23rd February"</span><span class="token punctuation">;</span>
 <span class="token keyword">var</span> todaysDate <span class="token operator">=</span> <span class="token string">"24th February"</span><span class="token punctuation">;</span>
 <span class="token comment" spellcheck="true">
@@ -352,63 +344,14 @@ console<span class="token punctuation">.</span><span class="token function">log<
     <span class="token function">eatCake<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
     <span class="token function">cry<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
+<span class="token punctuation">}</span></code></pre></div>
 			</div>
 			<div id="/section-6/page-3" class="ft-page" data-id="page-3">
-					<h1>While statement - <strong>Exercise</strong></h1>
-				<p>Example: While I am hungry, then eat some food</p>
-				
-
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//define how full we are to start
-</span><span class="token keyword">var</span> stomachPercentage <span class="token operator">=</span> <span class="token number">70</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">
-//define how to work out if we are hungry
-</span><span class="token keyword">function</span> <span class="token function">hungry<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>stomachPercentage<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">true</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
-        <span class="token keyword">return</span> <span class="token keyword">false</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-<span class="token comment" spellcheck="true">
-//define what happens when we eat food
-</span><span class="token keyword">function</span> <span class="token function">eatFood<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-   <span class="token comment" spellcheck="true"> //add 10 percent when we eat
-</span>    stomachPercentage <span class="token operator">=</span> stomachPercentage <span class="token operator">+</span> <span class="token number">10</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-
-<span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token function">hungry<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-   <span class="token comment" spellcheck="true"> //how many times will this run?
-</span>    <span class="token function">eatFood<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
-			</div>
-			<div id="/section-6/page-4" class="ft-page" data-id="page-4">
-				<h1>For/Foreach statement</h1>
-				<p>Example: For each letter I receive, read the letter</p>
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//define list of letters
-</span><span class="token keyword">var</span> listOfLetters <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"Letter from Bank"</span><span class="token punctuation">,</span> <span class="token string">"Letter from Auntie Mildred"</span><span class="token punctuation">,</span> <span class="token string">"Junk Mail"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">
-//iterate through list of letters and call readLetter function on each letter
-</span><span class="token keyword">for</span> <span class="token punctuation">(</span>letter <span class="token keyword">in</span> listOfLetters<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token function">readLetter<span class="token punctuation">(</span></span>letter<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
-<p>Sometimes you will see this expressed in a different way but the behaviour is the same:</p>
-<pre class="  language-javascript"><code class=" language-javascript"><span class="token comment" spellcheck="true">//define list of letters
-</span><span class="token keyword">var</span> listOfLetters <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"Letter from Bank"</span><span class="token punctuation">,</span> <span class="token string">"Letter from Auntie Mildred"</span><span class="token punctuation">,</span> <span class="token string">"Junk Mail"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">
-//iterate through list of letters and call readLetter function on each letter
-</span><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>listOfLetters<span class="token punctuation">.</span>length<span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token function">readLetter<span class="token punctuation">(</span></span>listOfLetters<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span></code></pre>
-
-
-			</div>
-			<div id="/section-6/page-5" class="ft-page" data-id="page-5">
 				<h1>Switch</h1>
 				<p>Switch is just a lot of if statements grouped together.</p>
 				<p>Example: Write out a welcome message based on which day it is</p>
 
-				<pre class="  language-javascript"><code class="  language-javascript"><span class="token keyword">var</span> today <span class="token operator">=</span> <span class="token string">"Wednesday"</span><span class="token punctuation">;</span>
+				<pre style="font-size:23px" class="  language-javascript"><code class="  language-javascript"><span class="token keyword">var</span> today <span class="token operator">=</span> <span class="token string">"Wednesday"</span><span class="token punctuation">;</span>
 <span class="token keyword">var</span> welcomeMessage<span class="token punctuation">;</span>
 
 <span class="token keyword">switch</span><span class="token punctuation">(</span>today<span class="token punctuation">)</span><span class="token punctuation">{</span>
@@ -426,6 +369,46 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
 console<span class="token punctuation">.</span><span class="token function">log<span class="token punctuation">(</span></span>welcomeMessage<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 			</div>
+			<div id="/section-6/page-4" class="ft-page" data-id="page-4">
+					<h1>While statement - <strong>Exercise</strong></h1>
+				<p>Example: While I am hungry, then eat some food</p>
+				
+
+				<div style="font-size:22px;"><pre class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//define how full we are to start
+</span><span class="token keyword">var</span> stomachPercentage <span class="token operator">=</span> <span class="token number">70</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">//define how to work out if we are hungry
+</span><span class="token keyword">function</span> <span class="token function">hungry<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>stomachPercentage<span class="token operator">&lt;</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">true</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">//define what happens when we eat food
+</span><span class="token keyword">function</span> <span class="token function">eatFood<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    stomachPercentage <span class="token operator">=</span> stomachPercentage <span class="token operator">+</span> <span class="token number">10</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//add 10 percent when we eat
+</span><span class="token punctuation">}</span>
+
+<span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token function">hungry<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">//how many times will this run?
+</span>    <span class="token function">eatFood<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+			</div>
+			<div id="/section-6/page-5" class="ft-page" data-id="page-5">
+				<h1>For statement</h1>
+				<p>Example: For each letter I receive, read the letter</p>
+				<pre style="font-size:24px;" class="  language-javascript"><code class="  language-javascript"><span class="token comment" spellcheck="true">//define list of letters
+</span><span class="token keyword">var</span> listOfLetters <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"Letter from Bank"</span><span class="token punctuation">,</span> <span class="token string">"Letter from Auntie Mildred"</span><span class="token punctuation">,</span> <span class="token string">"Junk Mail"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">
+//iterate through list of letters and call readLetter function on each letter
+</span><span class="token keyword">for</span> <span class="token punctuation">(</span>letter <span class="token keyword">in</span> listOfLetters<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token function">readLetter<span class="token punctuation">(</span></span>letter<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+			</div>
+			
 			<div id="/section-6/page-7" class="ft-page" data-id="page-7">
 				<h1>Control Flow and Conditionals Quiz</h1>
 				<dl>
